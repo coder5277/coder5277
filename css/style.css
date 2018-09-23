@@ -1,0 +1,143 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:transparent;
+}
+ul,ol,li
+{
+	list-style:none;
+}
+
+.wrapper
+{
+	width:100%;
+	max-width:1280px;
+	margin:0 auto;
+	
+    overflow: hidden;
+	
+}
+h1.logo-main
+{
+	background:url(../images/logo-main.png) no-repeat;
+	width:78px;
+	height:22px;
+	text-indent:-9999px;
+    float: left;
+    margin: 10px 20px;
+}
+
+nav ul
+{
+	float:right;
+	
+}
+nav ul > li
+{
+	float:left;
+    margin:10px 20px;
+}
+	
+nav ul > li a
+{
+    cursor: pointer;
+}
+
+#main-banner,#main-banner img
+{
+    width:100%;
+    margin-bottom: 48px;
+}
+
+.whatWedo:after
+{
+    
+    border-top: 1px solid #ccc;
+    content: "";
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+    padding: 1%;
+}
+
+.whatWedo h2.section-heading
+{
+    font-size:2em;
+    float:left;
+    width:25%;
+}
+
+.whatWedo ul.right-info
+{
+        float:right;
+        width:74%;
+    
+}
+.whatWedo ul.right-info li
+{
+    float: left;
+    width:33%;
+    padding: 10px;
+}
+
+.brands li
+{
+    width:100% !important;
+    
+}
+
+.brands li span
+{
+    display: inline-block !important;
+    margin-right: 6%;
+}
+.section-heading .link
+{
+    display: block;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.work
+{
+    width:70%;
+    float: right;
+    
+}
+p.text-center
+{
+    text-align: center;
+}
+.work span
+{ margin-right:6%;display: inline-block;text-align: center;}
+ 
+
+footer
+{margin-top: 22%;padding-top:4%;padding-bottom:4%;background:#ccc;}
+
+.logo-footer
+{
+	background:url(../images/logo-footer.png) no-repeat;
+	width:78px;
+	height:22px;
+	text-indent:-9999px;
+    float: none;
+    margin: 10px 0px;
+	
+}
+
+footer ul 
+{
+	float:left;
+	width:25%;
+}
+
+ul.footer-copywrite li
+{
+	float:none;
+	display:block;
+	
+}
